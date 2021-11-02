@@ -75,7 +75,7 @@ body>div{
     display: none;
 }
 
-@media (max-width:500px){
+@media (orientation:portrait){
     main{
         width: 90%;
     }
