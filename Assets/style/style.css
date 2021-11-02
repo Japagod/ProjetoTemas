@@ -74,3 +74,10 @@ body>div{
 ::-webkit-scrollbar{
     display: none;
 }
+
+@media (max-width:500px){
+    main{
+        width: 95%;
+    }
+}
+
