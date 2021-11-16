@@ -8,14 +8,21 @@
     <title>Calendário TMSI III</title>
 </head>
 <body id="body">
+    <div id="anim-intro">
+        <img id="anim-intro-img" src="./Assets/IMG/WhiteBack.jpg" alt="">
+    </div>
     <div id="config">
         <img src="./Assets/IMG/gear-fill.svg" alt="">
     </div>
 <nav id="nav">
     <div>
-        <label id="nav_label" for="input_userspan">Tempo do Aviso</label>
-        <input id="input_userspan" type="number" onchange="userspan()">
-        <img id="light_dark" src="./Assets/IMG/theme-light-dark-1.svg" alt="">
+        <div>
+            <label id="nav_label" for="input_userspan">Tempo do Aviso</label>
+            <input id="input_userspan" type="number" onchange="userspan()">
+        </div>
+        <div>
+            <button id="light_dark">Tema escuro</button>
+        </div>
     </div>
 </nav>
 <main id="main">
