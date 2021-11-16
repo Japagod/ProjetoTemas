@@ -1,26 +1,28 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./Assets/style/style.css">
-    <title>Calendário TMSI III</title>
+    <link rel="stylesheet" href="./Assets/CSS/style.css">
+    <title>Document</title>
 </head>
-
-<body>
-    <div>
-        <main id="pai">
-            <div id="aviso">
-                <h1>Carregando informações,</h1>
-                <h1>aguarde</h1>
-            </div>
-        </main>
+<body id="body">
+    <div id="config">
+        <img src="./Assets/IMG/gear-fill.svg" alt="">
     </div>
+<nav id="nav">
+    <div>
+        <label id="nav_label" for="input_userspan">Tempo do Aviso</label>
+        <input id="input_userspan" type="number" onchange="userspan()">
+        <img id="light_dark" src="./Assets/IMG/theme-light-dark-1.svg" alt="">
+    </div>
+</nav>
+<main id="main">
     
-    <img src="./Assets/img/back.jpg" alt="">
-    <script src="./Assets/script/main.js"></script>
-</body>
+</main>
 
+    <script src="./Assets/Script/main.js"></script>
+    <script src="./Assets/Script/user__options.js"></script>
+</body>
 </html>
